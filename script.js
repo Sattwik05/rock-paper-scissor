@@ -8,7 +8,7 @@ function playRound(){
     let value=0;
 
     value=Math.floor(Math.random()*options.length);
-    if(userscore==options[value]){
+    if(userOption==options[value]){
         console.log("its a tie!!");
 
     }
